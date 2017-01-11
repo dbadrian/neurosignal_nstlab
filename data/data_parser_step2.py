@@ -30,6 +30,7 @@ for entry in data.itertuples():
 
 minLimit = min(cnts)
 trials = len(cnts)
+print cnts
 print "Min. Measurements: ", minLimit
 print "Max. Measurements: ", max(cnts)
 print "Trials: ", trials
